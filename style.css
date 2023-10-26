@@ -1,0 +1,52 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;  /* Trocar a fonte depois*/
+}
+
+main{
+    margin: 90px;
+}
+
+.cabecario{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    height: 110px;
+}
+
+.logoCabecario{
+    height:60px;
+   
+
+   display:block;
+   margin: auto;
+}
+
+.logoFooter{
+    width: 100px;
+    height: 120px;
+}
+
+
+footer{
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.creditosDoFooter{
+  position: relative;
+  top:-20px;
+}
+
+.caixaBlack{
+    height: 10px;
+    width: 100px;
+    background-color: #333333;
+}
