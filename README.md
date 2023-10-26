@@ -1,7 +1,7 @@
 26/10/2023 - Iniciado desenvolvimento do projeto
 
 26/10/2023 - Criando o header
-
+26/10/2023 - Criando o footer
 
 CORES PARA USAR
 
