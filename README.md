@@ -3,6 +3,8 @@
 26/10/2023 - Criando o header
 26/10/2023 - Criando o footer
 
+27/10/2023 - Iniciado o desenvolvimento da lista de equipamentos 
+
 CORES PARA USAR
 
 dark-grey: #333333
