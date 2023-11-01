@@ -8,3 +8,5 @@
 01/11/2023 - Projeto Finalizado
 
 CONCERTOS E ALTERAÇÕES:
+
+- adicionado meta tags
