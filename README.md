@@ -4,11 +4,7 @@
 26/10/2023 - Criando o footer
 
 27/10/2023 - Iniciado o desenvolvimento da lista de equipamentos 
+01/11/2023 - Lista de equipamentos finalizada
+01/11/2023 - Projeto Finalizado
 
-CORES PARA USAR
-
-dark-grey: #333333
-light-grey: #808080
-yellow: #FFB612
-red: #dc0a17
-green: #2FC022
+CONCERTOS E ALTERAÇÕES:

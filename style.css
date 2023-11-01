@@ -5,17 +5,21 @@
    
    body{
      font-family:Arial, Helvetica, sans-serif;  /* Trocar a fonte depois*/
+     
    }
    
    main{
-       margin: 90px;
+       margin:20px;
    }
+   
+   
    
    .cabecario{
        background-color: #333333;
        display: flex;
        justify-content: center;
        height: 110px;
+       
    }
    .logoCabecario{
        height:60px;
@@ -40,6 +44,7 @@
    .creditosDoFooter{
      position: relative;
      top:-20px;
+     color: white;
    }
    
    .caixaBlack{
@@ -50,17 +55,196 @@
    
    
    ul{
-       background-color: blue;
-       height: 200px;
+     width: 890px;
+       background-color: #dcd8d8;
+       height: 150px;
        list-style: none;
        display: flex;
-       
-       justify-content: space-around;
+       gap: 5px;
+      
+       overflow: hidden;
+      justify-content: center;
    }
    
    li{
-       background-color: blueviolet;
-       height: 100%;
+       margin: 10px;
+       
+       
+       height: 120px;
        width: 200px;
        text-align: center;
+   
+   
+   }
+   .listaDeEquipamentos{
+       display: flex;
+       justify-content: center;
+       
+   }
+   .imagemsEquipementos{
+       display: flex;
+       justify-content: space-around;
+       padding: 10PX;
+   
+   }
+   
+   .Imagems{
+   
+       width:50px;
+       height: 50px;
+   }
+   
+   .listaDeRecomendacao{
+       display: flex;
+       justify-content: space-around;
+    
+      
+   }
+   
+   .locaisDisponiveis{
+    
+       height: 363px;
+       width: 100%px;
+       display: flex;
+       gap: 20px;
+       justify-content: center;
+       overflow: hidden;
+   }
+   .locaisInformacoes{
+       padding: 10px;
+       width: 268px;
+       height: 330px;
+       background-color: #dcd8d8;
+       border: #808080 solid 1px; 
+       border-radius: 10px;
+   }
+   
+   .lugarAberto{
+       color: #2FC022;
+       font-weight:1000;
+   
+   }
+   .lugarFechado{
+   color: #dc0a17;
+   font-weight:1000;
+   }
+   
+   .equipamentoCor{
+       color:#333333;
+       font-weight:1000;
+   }
+   
+   .listadeImagemsEquipamentosEmLocaisDisponiveis{
+     display: flex;
+     justify-content: space-around;
+    
+   }
+   .imagemsEquipamentosEmLocaisDisponiveis{
+       width: 50px;
+       height: 50px;
+   }
+   
+   @font-face {
+       font-family: gotham-black;
+       src: url(./src/font/gotham-black.woff2);
+   }
+   
+   h1{
+       font-family: gotham-black;
+   }
+   
+   .horarios{
+       padding: 10px;
+       
+       height: 380px ;
+       width: 870px;
+       border:5px solid #dcd8d8;
+       border-radius: 10px ;
+       
+      
+   
+   }
+   
+   #horariosCorTexto{
+       color: #dcd8d8;
+   }
+   
+   .botoesDehorarios{
+       width: 200px;
+       height: 40px;
+       transition: ease-in-out 0.2s;
+       border:2px solid #dcd8d8;
+       border-radius: 5px;
+       font-weight:1000;
+       cursor: pointer;
+   }
+   
+   .botoesDehorarios:hover{
+       background-color:  #FFB612;
+       transform: 0.2s;
+       border: none;
+   
+       
+   }
+   
+   .listaDeBotoes{
+       display: flex;
+       justify-content: center;
+       gap:20px;
+   
+   }
+   
+   .imagemRelogio{
+       width: 40px;
+       height: 40px;
+   }
+   
+   .relogio{
+       display: flex;
+      
+   }
+   
+   .relogioTexto{
+       margin-left:10px ;
+       position: relative;
+       top:10px;
+   }
+   
+   .conteudo{
+       display: flex;
+       flex-direction: column;
+      
+       align-items: center;
+       
+   }
+   
+   .posicaoHorario{
+       position: absolute;
+       left: 1240px;
+       
+   }
+   
+   .resultadosEncontrados{
+       margin-left:445px   ;
+   }
+   
+   .alinharCabecario{
+       display: flex;
+     justify-content: center;
+     align-items: center;
+   
+     width: 900px;
+   }
+   
+   .cabecarioEInfomarcoes{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       position: relative;
+     
+   }
+   
+   #alinharTextosNoHeader{
+       position: relative;
+       left: -20px;
    }
