@@ -9,40 +9,159 @@
 
 <body>
 
+   
     <header class="cabecario">
         <img src="/src/img/logo.svg" class="logoCabecario">
     </header>
-    
+    <br>
+
+ <div class="cabecarioEInfomarcoes">   
+  <div class="alinharCabecario"> 
     <main>
 
-        <h1>REABERTURA SMART FIT</h1>
-        <div class="caixaBlack"></div>
+        <h1 id="alinharTextosNoHeader">REABERTURA<br> SMART FIT</h1>
+        <div class="caixaBlack"  id="alinharTextosNoHeader"></div>
         <br>
-        <p> O horário de funcionamento das nossas unidades está seguindo os decretos 
-            de cada município. Por isso, confira aqui se a sua unidade está aberta e
+        <p  id="alinharTextosNoHeader"> O horário de funcionamento das nossas unidades está seguindo os decretos 
+            de cada município. Por isso, confira aqui<br> se a sua unidade está aberta e
              as medidas de segurança que estamos seguindo.</p><br>
+            </div> 
+ </div>          
 
+<div class="conteudo">
+    <div class="horarios">
+        <div class="relogio">
 
-
+        
+        <img src="/src/img/icon-hour.png" class="imagemRelogio">
+        <p class="relogioTexto">Horário</p>
+        </div>
+<form>
+    <br>
+    <label for="horarios" >Qual período quer treinar?<hr><br></br></label>
     
-<form></form>
+<input type="radio" for="horarios" > Manhã</input><label class="posicaoHorario" >06:00 às 12:00</label>
+<hr><br>
+    
+<input type="radio" for="horarios" > Tarde</input><label class="posicaoHorario"> 12:01 às 18:00</label> 
+<hr><br>
+<input type="radio"for="horarios" > Noite</input><label class="posicaoHorario" >    18:01 às 23:00</label>   
+<hr>
+<br><br>
+<input type="checkbox"> Exibir unidades fechadas</input><label class="resultadosEncontrados">Resultados encontrados: <b>0</b></label> 
+<br><br><br>
+<div class="listaDeBotoes">
+<button class="botoesDehorarios" type="submit">ENCONTRAR UNIDADE</button>
+<button class="botoesDehorarios" type="reset">LIMPAR</button>
+</div>
+</form>
+
+   
+   </div>
+</div>   
+<br>
 
 <div class="listaDeEquipamentos">
 
 <ul>
-    <li>Mascara</li>
-     <div>
-        <img src="" class="Imagems">
-        <p>Obrigatorio</p>
-        <img src="" class="Imagems">
-        <p>Recomendado</p>
+    <li>
+        <p class="equipamentoCor">Mascara</p>
+
+     <div class="imagemsEquipementos">
+        <img src="/src/img/required-mask.png" class="Imagems" >
+       
+        <img src="/src/img/recommended-mask.png" class="Imagems">
+        
      </div>
-    <li>Toalha</li>
-    <li>Bebedouros</li>
-    <li>Vestiarios</li>
+     <div class="listaDeRecomendacao">
+        <p>Obrigatório</p>
+        <p>Recomendado</p>
+     </div></li>
+
+    <li>
+        <p class="equipamentoCor">Toalha</p>  
+        <div class="imagemsEquipementos">
+            <img src="/src/img/required-towel.png" class="Imagems" >         
+            <img src="/src/img/recommended-towel.png" class="Imagems">          
+         </div>
+         <div class="listaDeRecomendacao">
+            <p>Obrigatório</p>
+            <p>Recomendado</p>
+         </div>
+    </li>
+    <li>
+        <p class="equipamentoCor">Bebedouros</p>     
+        <div class="imagemsEquipementos">
+            <img src="/src/img/partial-fountain.png" class="Imagems" >
+            <img src="/src/img/forbidden-fountain.png" class="Imagems">
+         </div>
+         <div class="listaDeRecomendacao">
+            <p>Parcial</p>
+            <p>Proibido</p>           
+         </div>
+    </li>
+    <li>
+        <p class="equipamentoCor">Vestiarios</p>
+        
+        <div class="imagemsEquipementos">
+            <img src="/src/img/required-lockerroom.png" class="Imagems" >
+            <img src="/src/img/partial-lockerroom.png" class="Imagems">
+            <img src="/src/img/forbidden-lockerroom.png" class="Imagems">         
+         </div>
+         <div class="listaDeRecomendacao">        
+            <p>Liberado</p>
+            <p>Parcial</p>
+            <p>Fechado</p>
+         </div>
+    </li>
 </ul>
+</div>
+<br>
+
+<div class="locaisDisponiveis">
+    <div class="locaisInformacoes">
+     
+        <p class="lugarAberto">Aberto</p>   
+        <h3>Vicente Linhares</h3><br>
+        <p>Rua Tibúrcio Cavalcante,1885<br>
+           Meireles</br>
+           Fortaleza, CE
+        </p>
+        <br>
+        <hr>
+        <br>
+<div class="listaDeImagemsEquipamentosEmLocaisDisponiveis">
+    <img src="/src/img/required-mask.png"class="imagemsEquipamentosEmLocaisDisponiveis">
+<img src="/src/img/required-towel.png"class="imagemsEquipamentosEmLocaisDisponiveis">
+<img src="/src/img/partial-fountain.png"class="imagemsEquipamentosEmLocaisDisponiveis">
+<img src="/src/img/forbidden-lockerroom.png"  class="imagemsEquipamentosEmLocaisDisponiveis">
+</div>
+<br>
+        <h3>Seg. à Sex. Sáb.</h3>
+        <p>06h às 22h 09h às 18</p>
+        <br>
+        <h3>Dom.</h3>
+        <p>Fechada</p>
+    </div>
+
+    <div class="locaisInformacoes">
+        <p class="lugarFechado">Fechado</p>
+        <h3>Vila Carrão</h3>
+        <br>
+        <p>Av. Ghilherme Giorgi,1460,Vila Carrão, São Paulo - SP</p>
+    </div>
+
+    <div class="locaisInformacoes">
+        <p class="lugarFechado">Fechado</p>
+       
+        <h3>Vila Carrão</h3>
+        <br>
+        <p>Av. Ghilherme Giorgi,1460,Vila Carrão, São Paulo - SP</p>
+    </div>
 
 </div>
+
+<br><br><br><br>
 
 
 
