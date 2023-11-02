@@ -5,7 +5,7 @@
 
 27/10/2023 - Iniciado o desenvolvimento da lista de equipamentos <br>
 01/11/2023 - Lista de equipamentos finalizada<br>
-01/11/2023 - Projeto Finalizado
+01/11/2023 - Projeto Finalizado<br>
 
 CONCERTOS E ALTERAÇÕES:
 
