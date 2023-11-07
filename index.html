@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
     <title>Projeto - 4º Semestre</title>
-
-    <meta name="author" content="Luciano Quintela">
-      <meta name="description" content="recriar a tela da SMART FIT">
-      <meta name="keywords" content="SMART FIT, Projeto">
-      <meta http-equiv="content-language" content="pt-br" />
-      
-      <meta name="copyright" content="© 2023 recriando SMART FIT" />
-      
-      <meta name="robots" content="noindex,follow">
-      <meta name="rating" content="14 years" />
-
     
-    <link rel="stylesheet" href="./style.css">
-</head>
-
+<link rel="stylesheet" href="style.css"></head>
+<link rel="stylesheet" href="mobile.css">
 
 
 <body>
@@ -38,7 +24,7 @@
         <div class="caixaBlack"  id="alinharTextosNoHeader"></div>
         <br>
         <p  id="alinharTextosNoHeader"> O horário de funcionamento das nossas unidades está seguindo os decretos 
-            de cada município. Por isso, confira aqui<br> se a sua unidade está aberta e
+            de cada município. Por isso, confira aqui se a sua unidade está aberta e
              as medidas de segurança que estamos seguindo.</p><br>
             </div> 
  </div>          
@@ -63,7 +49,9 @@
 <input type="radio"for="horarios" > Noite</input><label class="posicaoHorario" >    18:01 às 23:00</label>   
 <hr>
 <br><br>
-<input type="checkbox"> Exibir unidades fechadas</input><label class="resultadosEncontrados">Resultados encontrados: <b>0</b></label> 
+
+
+<input type="checkbox" class="inputVersoMobile"> Exibir unidades fechadas</input><label class="resultadosEncontrados">Resultados encontrados: <b>0</b></label> 
 <br><br><br>
 <div class="listaDeBotoes">
 <button class="botoesDehorarios" type="submit">ENCONTRAR UNIDADE</button>
@@ -188,4 +176,3 @@
 
 
 </body>
-</html>
