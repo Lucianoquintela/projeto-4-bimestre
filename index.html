@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <title>Projeto - 4º Semestre</title>
     
-<link rel="stylesheet" href="./src/css/style.css"></head>
-<link rel="stylesheet" href="./src/css/mobile.css">
+   <link rel="stylesheet" href="./src/css/style.css">
+   <link rel="stylesheet" href="./src/css/mobile.css">
+   <link rel="stylesheet" href="./src/css/reset.css">
+  
+</head>   
 
 
 <body>
@@ -42,16 +45,22 @@
         </div>
 <form>
     <br>
-    <label for="horarios" >Qual período quer treinar?<hr><br></br></label>
-    
-<input type="radio" for="horarios" > Manhã</input><label class="posicaoHorario" >06:00 às 12:00</label>
+    <label for="horarios" class="perguntaEmHorarios">Qual período quer treinar?<hr class="primeiraeLinhaDoForm"><br></br></label>
+<div class="alinhamentoDosHorarios">    
+<input type="radio" name="horarios" class="corDoTexto"> Manhã</input>
+<p class="posicaoHorario">06:00 às 12:00</p></div>
 <hr><br>
     
-<input type="radio" for="horarios" > Tarde</input><label class="posicaoHorario"> 12:01 às 18:00</label> 
+<div class="alinhamentoDosHorarios">
+<input type="radio" name="horarios" class="corDoTexto"> Tarde</input>
+<p class="posicaoHorario">12:01 às 18:00</p> </div>
 <hr><br>
-<input type="radio"for="horarios" > Noite</input><label class="posicaoHorario" >    18:01 às 23:00</label>   
+<div class="alinhamentoDosHorarios">
+<input type="radio" name="horarios" class="corDoTexto"> Noite</input>
+<p class="posicaoHorario"  >08:01 às 23:00</p></div>   
 <hr>
 <br><br>
+
 
 
 <input type="checkbox" class="inputVersoMobile"> Exibir unidades fechadas</input><label class="resultadosEncontrados">Resultados encontrados: <b>0</b></label> 
@@ -60,6 +69,7 @@
 <button class="botoesDehorarios" type="submit">ENCONTRAR UNIDADE</button>
 <button class="botoesDehorarios" type="reset">LIMPAR</button>
 </div>
+
 </form>
 
    
