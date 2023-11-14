@@ -12,3 +12,15 @@
 CONCERTOS E ALTERAÇÕES:
 
 - adicionado meta tags
+14/11/2023 - adicionado espaçamento entre a pergunta(qual periodo quer treinar?)
+e primeira linha do formulario de horarios
+- concertado o erro no input, agora e possivel escolher apenas uma opção em vez de todas     
+14/11/2023 - modificado cor dos paragrafos em horarios 
+
+
+COISAS PRA CONCERTAR
+
+- Espaço entre o botao (limpar) e o fim da (div) em telas maiores/menores
+- horarios se movendo, e deasaparecendo em telas maiores  
+
+ULTIMA ATUALIZAÇÃO: 11h:14m - 14/11/2023 
