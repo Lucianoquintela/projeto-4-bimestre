@@ -16,6 +16,7 @@ CONCERTOS E ALTERAÇÕES:
 e primeira linha do formulario de horarios
 - concertado o erro no input, agora e possivel escolher apenas uma opção em vez de todas     
 14/11/2023 - modificado cor dos paragrafos em horarios 
+- removido barra de rolagem
 
 
 COISAS PRA CONCERTAR
@@ -23,4 +24,4 @@ COISAS PRA CONCERTAR
 - Espaço entre o botao (limpar) e o fim da (div) em telas maiores/menores
 - horarios se movendo, e deasaparecendo em telas maiores  
 
-ULTIMA ATUALIZAÇÃO: 11h:14m - 14/11/2023 
+ULTIMA ATUALIZAÇÃO: 11h:26m - 14/11/2023
