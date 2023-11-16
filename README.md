@@ -21,7 +21,9 @@ e a primeira linha do formulario de horarios
 16/11 - alterado background do botão limpar
 16/11 - centralizado imagens em locais disponiveis
 16/11 - adicionado espaçamento entre horarios e dias disponiveis na seção de locais disponiveis
-16/11 - aumentado o tamanho do quadro de periodo de treino na versão mobile   
+16/11 - aumentado o tamanho do quadro de periodo de treino na versão mobile 
+16/11 - criado pasta fonts
+16/11 - alterado cor de fundo da ul  
 
 COISAS PRA CONCERTAR
 
