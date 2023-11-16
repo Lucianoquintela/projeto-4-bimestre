@@ -14,10 +14,10 @@ PROJETO SMART FIT
 CONCERTOS E ALTERAÇÕES:
 
 - adicionado meta tags<br>
-14/11/2023 - adicionado espaçamento entre a pergunta (qual periodo quer treinar?)
-e a primeira linha do formulario de horarios<br>
 - concertado o erro do input, agora e possivel escolher apenas uma opção em vez de todas <br>    
 - removido barra de rolagem <br>
+14/11/2023 - adicionado espaçamento entre a pergunta (qual periodo quer treinar?)
+e a primeira linha do formulario de horarios<br>
 
 14/11/2023 - modificado cor dos paragrafos em horarios <br>
 16/11 - removido hover do botão encontar unidade<br> 
@@ -34,6 +34,8 @@ COISAS PRA CONCERTAR
 - horarios se movendo, e deasaparecendo em telas maiores  
 
 ULTIMA ATUALIZAÇÃO: 10h:15m - 16/11/2023
+
+
 
 
 
