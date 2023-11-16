@@ -10,6 +10,7 @@
     .horarios{
       height: 530px;
       width:93%;
+      
     }
   
     .listaDeBotoes{
@@ -68,8 +69,27 @@
     margin-left: 100px;
 }
 
+.alinhamentoDosHorarios{
+
+overflow: hidden;
+
+
+
+}
+
+.posicaoHorario{
+
+   
+    position: absolute;
+    margin-left: -450px;
+  
+
+
+       
+}
 
   }
+
 
 
 
