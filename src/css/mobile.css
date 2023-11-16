@@ -1,14 +1,14 @@
-
 /* Configuração para mobile */
 @media screen and (max-width: 992px) {
     .conteudo{
       width: 90%;     
       display: block;
-      margin: auto;    
+      margin: auto;
+      
     }
 
     .horarios{
-      height: 515px;
+      height: 530px;
       width:93%;
     }
   
@@ -59,17 +59,17 @@
       justify-content: center;
       align-items: center;
     }
-    
-    .alinhamentoDosHorarios .posicaoHorario{
-        position: relative;
-        left: 70%;
-    }
 
-    .inputVersoMobile{
+  
+
+.inputVersoMobile{
     background-color: blue;
     margin: auto;
     margin-left: 100px;
-    }
 }
+
+
+  }
+
 
 
