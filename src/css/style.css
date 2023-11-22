@@ -1,8 +1,6 @@
 /* Configuração para desktop */
 
-body{
-    font-family: gotham-black ; 
-}
+
 
 .cabecarioEInfomarcoes{
     margin: 20px;
@@ -50,7 +48,7 @@ footer{
 }
 
 ul{
-    width: 890px;
+    width: 899px;
     background-color: #f4f0f0;
     height: 150px;
     list-style: none;
@@ -70,6 +68,7 @@ li{
 .listaDeEquipamentos{
     display: flex;
     justify-content: center; 
+    
 }
 
 .imagemsEquipementos{
@@ -86,6 +85,8 @@ li{
 .listaDeRecomendacao{
     display: flex;
     justify-content: space-around;  
+    
+    gap:10px;
 }
 
 .locaisDisponiveis{
@@ -219,6 +220,7 @@ h1{
 #alinharTextosNoHeader{
     position: relative;
     left: -20px;
+    
 }
 
 .primeiraeLinhaDoForm{
@@ -238,7 +240,7 @@ h1{
    
 .alinhamentoDosHorarios{   
     color: #808080;
-    font-family: gotham-black; 
+    
 }
 
 .horarioAberto{

@@ -1,6 +1,74 @@
 
 @font-face {
     font-family: gotham-black;
-    src: url(./src/font/gotham-black.woff2);
- 
+    src: url(/src/font/gotham-black.woff2);
 }
+
+
+@font-face {
+    font-family: gotham-bold;
+    src: url(/src/font/gotham-bold.woff2);
+}
+
+
+@font-face {
+    font-family: gotham-book;
+    src: url(/src/font/gotham-book.woff2);
+}
+
+@font-face {
+    font-family: gotham-light;
+    src: url(/src/font/gotham-light.woff2);
+}
+
+
+
+.fontTextoSmartFit{
+    font-family: gotham-gold;
+}
+
+.alinhamentoDosHorarios{   
+    
+    font-family: gotham-light; 
+}
+
+.fontTextoDescricao{
+    font-family: gotham-book; 
+}
+
+.listaDeEquipamentos{
+    font-family: gotham-book; 
+}
+
+.resultadosEncontrados{
+    font-family: gotham-book; 
+}
+
+
+
+.lugarAberto{
+    font-family: gotham-bold;
+}
+
+.lugarFechado{
+    font-family: gotham-bold;
+}
+
+h3{
+    font-family: gotham-book;
+}
+
+.fontLocais{
+    font-family: gotham-book; 
+}
+
+.horarioAberto{
+    font-family: gotham-book; 
+}
+
+.diaTextFechado{
+    font-family: gotham-book; 
+}
+
+
+

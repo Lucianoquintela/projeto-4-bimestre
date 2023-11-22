@@ -26,13 +26,13 @@ e a primeira linha do formulario de horarios<br>
 16/11 - adicionado espaçamento entre horarios e dias disponiveis na seção de locais disponiveis<br>
 16/11 - aumentado o tamanho do quadro de periodo de treino na versão mobile<br>
 16/11 - criado pasta fonts<br>
-16/11 - alterado cor de fundo da ul
+16/11 - alterado cor de fundo da ul<br>
+22/11 - fonts adicionadas
 
 COISAS PRA CONCERTAR
 
 - Espaço entre o botao (limpar) e o fim da (div) em telas maiores/menores
 - horarios se movendo, e deasaparecendo em telas maiores  
+- 
 
-ULTIMA ATUALIZAÇÃO: 10h:15m - 16/11/2023
-
-
+ULTIMA ATUALIZAÇÃO: 10h:09m - 22/11/2023
