@@ -1,4 +1,4 @@
-PROJETO SMART FIT
+<h2>PROJETO SMART FIT</h2>
 
 26/10/2023 - Iniciado desenvolvimento do projeto
 
@@ -32,7 +32,7 @@ e a primeira linha do formulario de horarios<br>
 COISAS PRA CONCERTAR
 
 - Espaço entre o botao (limpar) e o fim da (div) em telas maiores/menores
-- horarios se movendo, e deasaparecendo em telas maiores  
-- 
+- horarios se movendo, e deasaparecendo em telas maiores   
 
-ULTIMA ATUALIZAÇÃO: 10h:09m - 22/11/2023
+ULTIMA ATUALIZAÇÃO: 14h:45m - 22/11/2023
+

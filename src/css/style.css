@@ -1,7 +1,5 @@
 /* Configuração para desktop */
 
-
-
 .cabecarioEInfomarcoes{
     margin: 20px;
 }
@@ -85,7 +83,7 @@ li{
 .listaDeRecomendacao{
     display: flex;
     justify-content: space-around;  
-    
+    font-size: 15px;
     gap:10px;
 }
 
@@ -103,7 +101,7 @@ li{
     width: 268px;
     height: 370px;
     background-color: #efeeee;
-    border: #d1bfbf solid 1px; 
+    border: #ded9d9 solid 1px; 
     border-radius: 10px;
 }
 
@@ -113,8 +111,8 @@ li{
 }
 
 .lugarFechado{
-color: #dc0a17;
-font-weight:1000;
+    color: #dc0a17;
+    font-weight:1000;
 }
 
 .equipamentoCor{
@@ -122,8 +120,7 @@ font-weight:1000;
     font-weight:1000;
 }
 
-.alinhamentoImagemsEmLocais{
-    
+.alinhamentoImagemsEmLocais{  
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -194,9 +191,10 @@ h1{
 }
 
 .alinhamentoDosHorarios .posicaoHorario{ 
-    position: relative;
-    left: 740px;
-    top:-17px;   
+    position: relative;  
+    top:-17px;     
+    display: flex;
+    margin-left: 730px; 
 }
 
 .resultadosEncontrados{
@@ -236,11 +234,11 @@ h1{
 .posicaoHorario{
     color: #808080;
     font-size: 17px;
+    width: 130px;
 }
    
 .alinhamentoDosHorarios{   
-    color: #808080;
-    
+    color: #808080;    
 }
 
 .horarioAberto{
@@ -257,4 +255,8 @@ h1{
 
 .diaTextFechado{
     margin-top: 9px;
+}
+
+.moverNomeParcial{
+    margin-left: 10px;
 }

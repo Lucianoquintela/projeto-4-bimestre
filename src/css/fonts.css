@@ -1,4 +1,4 @@
-
+/* Fonts */
 @font-face {
     font-family: gotham-black;
     src: url(/src/font/gotham-black.woff2);
@@ -21,8 +21,6 @@
     src: url(/src/font/gotham-light.woff2);
 }
 
-
-
 .fontTextoSmartFit{
     font-family: gotham-gold;
 }
@@ -43,8 +41,6 @@
 .resultadosEncontrados{
     font-family: gotham-book; 
 }
-
-
 
 .lugarAberto{
     font-family: gotham-bold;
@@ -70,5 +66,6 @@ h3{
     font-family: gotham-book; 
 }
 
-
-
+.creditosDoFooter{
+    font-family: gotham-book; 
+}

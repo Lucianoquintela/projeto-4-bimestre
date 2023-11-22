@@ -3,8 +3,7 @@
     .conteudo{
       width: 90%;     
       display: block;
-      margin: auto;
-      
+      margin: auto;     
     }
 
     .horarios{
@@ -18,7 +17,6 @@
         flex-direction: column;
         align-items: center;
     }
-
 
     .botoesDehorarios{
         width: 90% ;
@@ -53,7 +51,6 @@
         align-items: center;
     }
 
-
     .resultadosEncontrados{
       margin-left: 10px;
       display: flex;
@@ -61,34 +58,21 @@
       align-items: center;
     }
 
-  
+    .inputVersoMobile{
+      background-color: blue;
+      margin: auto;
+      margin-left: 100px;
+    }
 
-.inputVersoMobile{
-    background-color: blue;
-    margin: auto;
-    margin-left: 100px;
+    .alinhamentoDosHorarios{
+      overflow: hidden;
+    } 
+
+   .posicaoHorario{ 
+     background-color: aquamarine;
+     display: flex;
+     left: -450px
+    }
 }
-
-.alinhamentoDosHorarios{
-
-overflow: hidden;
-
-
-
-}
-
-.posicaoHorario{
-
-   
-    position: absolute;
-    margin-left: -450px;
-  
-
-
-       
-}
-
-  }
-
 
 
