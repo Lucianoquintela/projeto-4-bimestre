@@ -1,24 +1,24 @@
 /* Fonts */
 @font-face {
     font-family: gotham-black;
-    src: url(./src/font/gotham-black.woff2);
+    src: url(/src/font/gotham-black.woff2);
 }
 
 
 @font-face {
     font-family: gotham-bold;
-    src: url(./src/font/gotham-bold.woff2);
+    src: url(/src/font/gotham-bold.woff2);
 }
 
 
 @font-face {
     font-family: gotham-book;
-    src: url(./src/font/gotham-book.woff2);
+    src: url(/src/font/gotham-book.woff2);
 }
 
 @font-face {
     font-family: gotham-light;
-    src: url(./src/font/gotham-light.woff2);
+    src: url(/src/font/gotham-light.woff2);
 }
 
 .fontTextoSmartFit{
