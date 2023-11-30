@@ -1,5 +1,10 @@
 <h2>PROJETO SMART FIT</h2>
 
+Site de uma academia para agendar horarios de treino e ver medidas de segurança
+
+Tecnologias usadas HTML e CSS
+
+
 26/10/2023 - Iniciado desenvolvimento do projeto
 
 26/10/2023 - Criando o header<br>
